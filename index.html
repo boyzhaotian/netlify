@@ -52,6 +52,7 @@
         $("button").click(function(){
             $.ajax({
                 url: "https://api.tinify.com/shrink",
+                headers : {'Authorization':'Basic 14okseRMhxQgC8G4RVoQeNwUzlAUhOXt'},
                 type: "POST",
                 data: {
                     source: {
